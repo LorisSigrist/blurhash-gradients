@@ -1,0 +1,30 @@
+{
+    "name": "blurhash-gradients",
+    "version": "0.0.3",
+    "author": "Loris Sigrist",
+    "type": "module",
+    "main": "src/index.js",
+    "types": "types/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./types/index.d.ts",
+            "import": "./src/index.js"
+        }
+    },
+    "scripts": {
+        "build": "node ./build.js",
+        "prepublishOnly": "node ./build.js",
+        "check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "blurhash": "^2.0.5"
+    },
+    "devDependencies": {
+        "dts-buddy": "^0.2.4",
+        "typescript": "^5.2.2"
+    },
+    "files": [
+        "src",
+        "types"
+    ]
+}
