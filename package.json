@@ -5,6 +5,12 @@
     "type": "module",
     "main": "src/index.js",
     "types": "types/index.d.ts",
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LorisSigrist/blurhash-gradients.git"
+    },
+
     "exports": {
         ".": {
             "types": "./types/index.d.ts",
